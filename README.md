@@ -27,3 +27,6 @@ Index files with pre-sorted data in key-value pairs (KVPs)
 + `IdxToneNumbers`
   + KVPs of pinyin tone marks and tone numbers
   + ordered by string length, descending
+
++ `IdxExtraPinyin`
+  + KVPs of Symbols (e.g., Punctuation) and placeholder Hanyu Pinyin
