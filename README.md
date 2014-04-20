@@ -36,3 +36,6 @@ Index files with pre-sorted data in key-value pairs (KVPs)
 
 + `IdxTraditional`
   + KVPs of Simplified Chinese and Traditional Chinese characters
+
++ `IdxKoreanRomanization`
+  + KVPs of Korean Hangul and Revised Romanization pronunciation  
