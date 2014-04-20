@@ -18,7 +18,7 @@ Index files with pre-sorted data in key-value pairs (KVPs)
   + KVPs of Hanyu Pinyin phoneme keys, where all values equal 1
   
 + `IdxSimplified`
-  + KVPs of Traditional Chinese and Simplified Chinese
+  + KVPs of Traditional Chinese and Simplified Chinese characters
   
 + `IdxToneMarks`
   + KVPs of pinyin tone numbers and tone marks
@@ -30,3 +30,9 @@ Index files with pre-sorted data in key-value pairs (KVPs)
 
 + `IdxExtraPinyin`
   + KVPs of Symbols (e.g., Punctuation) and placeholder Hanyu Pinyin
+
++ `IdxJyutping`
+  + KVPs of Cantonese characters and Jyutping pronunciation
+
++ `IdxTraditional`
+  + KVPs of Simplified Chinese and Traditional Chinese characters
