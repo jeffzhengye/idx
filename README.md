@@ -51,3 +51,9 @@ Index files with pre-sorted data in key-value pairs (KVPs)
 
 + `IdxBopomofoPinyin`
   + KVPs of Bopomofo and Hanyu Pinyin
+
++ `IdxPinyinWadeGiles`
+  + KVPs of Hanyu Pinyin and Wade-Giles  
+
++ `IdxWadeGilesPinyin`
+  + KVPs of Wade-Giles and Hanyu Pinyin  
