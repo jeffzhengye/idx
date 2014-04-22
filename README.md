@@ -39,3 +39,15 @@ Index files with pre-sorted data in key-value pairs (KVPs)
 
 + `IdxKoreanRomanization`
   + KVPs of Korean Hangul and Revised Romanization pronunciation  
+
++ `IdxPinyinYale`
+  + KVPs of Hanyu Pinyin and Yale Romanization  
+
++ `IdxYalePinyin`
+  + KVPs of Yale Romanization and Hanyu Pinyin
+
++ `IdxPinyinBopomofo`
+  + KVPs of Hanyu Pinyin and Bopomofo 
+
++ `IdxBopomofoPinyin`
+  + KVPs of Bopomofo and Hanyu Pinyin
