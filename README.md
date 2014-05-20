@@ -1,45 +1,50 @@
 idx
 ===
 
-Index files with pre-sorted data in key-value pairs (KVPs)
+Index files with pre-sorted data in key-value pairs (KVPs).
 
-### FORMATS ###
++ Drives pffy conversion objects with the [wisdom of the crowd](http://en.wikipedia.org/wiki/Wisdom_of_the_crowd).
+
+## FORMATS
 
 + `txt` - colon-delimited, similar to Java properties files
-+ `json` - Unicode-escaped JavaScript Object Notation 
++ `json` - Unicode-escaped [JavaScript Object Notation](http://www.json.org/)
 
 
-### IDX LIST ###
+## IDX LIST
 
 + `IdxHanyuPinyin`
   + KVPs of Chinese characters and Hanyu Pinyin pronunciation
+  + ordered by key length, descending
 
 + `IdxPinyinPhonemes`
   + KVPs of Hanyu Pinyin phoneme keys, where all values equal 1
   
 + `IdxSimplified`
   + KVPs of Traditional Chinese and Simplified Chinese characters
-  
-+ `IdxToneMarks`
-  + KVPs of pinyin tone numbers and tone marks
-  + ordered by string length, descending
-  
-+ `IdxToneNumbers`
-  + KVPs of pinyin tone marks and tone numbers
-  + ordered by string length, descending
-
-+ `IdxToneRemoval`
-  + KVPs of tone marks/numbers and toneless phonemes
-  + ordered by string length, descending
-
-+ `IdxExtraPinyin`
-  + KVPs of Symbols (e.g., Punctuation) and placeholder Hanyu Pinyin
-
-+ `IdxJyutping`
-  + KVPs of Cantonese characters and Jyutping pronunciation
 
 + `IdxTraditional`
   + KVPs of Simplified Chinese and Traditional Chinese characters
+  + ordered by key length, descending
+
++ `IdxToneMarks`
+  + KVPs of pinyin tone numbers and tone marks
+  + ordered by key length, descending
+  
++ `IdxToneNumbers`
+  + KVPs of pinyin tone marks and tone numbers
+  + ordered by key length, descending
+
++ `IdxToneRemoval`
+  + KVPs of tone marks/numbers and toneless phonemes
+  + ordered by key length, descending
+
++ `IdxExtraPinyin`
+  + KVPs of Symbols (e.g., Punctuation) and placeholder "extra" Hanyu Pinyin
+  + unordered
+
++ `IdxJyutping`
+  + KVPs of Cantonese characters and Jyutping pronunciation
 
 + `IdxKoreanRomanization`
   + KVPs of Korean Hangul and Revised Romanization pronunciation  
@@ -52,9 +57,11 @@ Index files with pre-sorted data in key-value pairs (KVPs)
 
 + `IdxPinyinBopomofo`
   + KVPs of Hanyu Pinyin and Bopomofo 
+  + ordered by key length, descending
 
 + `IdxBopomofoPinyin`
   + KVPs of Bopomofo and Hanyu Pinyin
+  + ordered by key length, descending
 
 + `IdxPinyinWadeGiles`
   + KVPs of Hanyu Pinyin and Wade-Giles  
