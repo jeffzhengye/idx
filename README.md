@@ -23,6 +23,10 @@ Index files with pre-sorted data in key-value pairs (KVPs).
 + `IdxSimplified`
   + KVPs of Traditional Chinese and Simplified Chinese characters
 
++ `IdxSimplifiedMicro`
+  + Subset of `IdxSimplified` where keys never equal values.
+  + 78% smaller than `IdxSimplified`, but accurate character detection is limited.
+
 + `IdxTraditional`
   + KVPs of Simplified Chinese and Traditional Chinese characters
   + ordered by key length, descending
